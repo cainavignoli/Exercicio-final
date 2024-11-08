@@ -1,0 +1,98 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tabela de Produtos</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Preço</th>
+          <th>Categoria</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Xbox X </td>
+          <td>R$ 3.500</td>
+          <td>video game</td>
+          <td> jogos em 4K nativo, vem equipado com um leitor de discos Blu-ray UHD e 1 TB de armazenamento SSD personalizado.</td>
+        </tr>
+        <tr>
+          <td>Smartphone XYZ</td>
+          <td>R$ 1.999,00</td>
+          <td>Eletrônicos</td>
+          <td>Smartphone com tela OLED, câmera de 48MP e bateria de 4.500mAh.</td>
+        </tr>
+        <tr>
+          <td>Bola de Futebol</td>
+          <td>R$ 259,99</td>
+          <td>Objeto</td>
+          <td>Utilizado para práticas esportivas</td>
+        </tr>
+        <tr>
+          <td>Tênis Esportivo</td>
+          <td>R$ 149,99</td>
+          <td>Vestuário</td>
+          <td>Tênis ideal para atividades físicas, com sola antiderrapante.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------
+
+style.css
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
